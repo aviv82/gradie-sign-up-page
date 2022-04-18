@@ -1,0 +1,17 @@
+.text-container {
+  position: relative;
+  top: 40px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.header-title p {
+  color: rgb(194, 194, 194);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 4px;
+}
