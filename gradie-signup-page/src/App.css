@@ -64,7 +64,36 @@ header {
   top: 10px;
 }
 
-form {
-  display: block;
-  margin-top: 0em;
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .login-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .header-title {
+    width: 90%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .sub-img {
+    max-width: 200px;
+    height: 300px;
+  }
+
+  .sub-header-title {
+    width: 85%;
+    position: relative;
+    left: -2%;
+    height: 440px;
+  }
+
+  a {
+    display: block;
+  }
 }
